@@ -10,8 +10,8 @@ fetch(urlModels)
       const { brand_title, name } = model;
       modelsLists.innerHTML += `
         <tr>
-            <td>${brand_title}</td>
             <td>${name}</td>
+            <td>${brand_title}</td>
         </tr>
         `;
     });
